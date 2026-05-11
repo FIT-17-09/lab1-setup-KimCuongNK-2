@@ -2,9 +2,9 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
-- Lớp:
-- Thành viên:
+- Tên nhóm:Nhóm 4
+- Lớp:CNTT 17-09
+- Thành viên:Bảo Linh, Trung Sơn, Thế Anh, Kim Cường
 - Service nhóm phụ trách:
 - Sản phẩm tổng thể của lớp:
 
