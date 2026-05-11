@@ -4,11 +4,11 @@ Thư mục này dùng để nộp minh chứng thiết lập môi trường lab.
 
 ## Sinh viên điền thông tin
 
-- Họ tên:
-- Mã sinh viên:
-- Nhóm:
-- Vai trò dự kiến trong nhóm:
-- Hệ điều hành:
+- Họ tên: Nguyễn Kim Cường
+- Mã sinh viên:1771020115
+- Nhóm: Nhóm 4
+- Vai trò dự kiến trong nhóm:Thành viên nhóm
+- Hệ điều hành:Microsoft
 - Ghi chú:
 
 ## Các file minh chứng nên có
