@@ -91,17 +91,6 @@ Core Business Service nhận các dữ liệu đầu vào như:
 - Sự kiện ra/vào từ Access Gate Service.
 - Kết quả nhận diện người dùng từ AI Vision Service.
 - Yêu cầu truy vấn dữ liệu từ Frontend hoặc các service khác.
-
-Ví dụ input:
-
-```json
-{
-  "employeeId": "EMP001",
-  "eventType": "CHECK_IN",
-  "time": "2026-05-11T08:00:00",
-  "source": "Attendance Service"
-}
-
 ## 6. API dự kiến
 
 | Method | Endpoint                           | Mục đích                             |
