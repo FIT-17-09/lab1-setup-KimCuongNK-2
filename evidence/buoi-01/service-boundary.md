@@ -104,10 +104,23 @@ Ví dụ input:
 
 ## 6. API dự kiến
 
-| Method | Endpoint | Mục đích |
-|---|---|---|
-| GET | /health | Kiểm tra service |
-| POST | ... | ... |
+| Method | Endpoint                           | Mục đích                             |
+| ------ | ---------------------------------- | ------------------------------------ |
+| GET    | /health                            | Kiểm tra service có hoạt động không  |
+| GET    | /employees                         | Lấy danh sách nhân viên              |
+| GET    | /employees/{id}                    | Lấy thông tin chi tiết một nhân viên |
+| POST   | /employees                         | Thêm mới nhân viên                   |
+| PUT    | /employees/{id}                    | Cập nhật thông tin nhân viên         |
+| DELETE | /employees/{id}                    | Xóa hoặc vô hiệu hóa nhân viên       |
+| GET    | /departments                       | Lấy danh sách phòng ban              |
+| POST   | /departments                       | Thêm mới phòng ban                   |
+| GET    | /work-shifts                       | Lấy danh sách ca làm việc            |
+| POST   | /work-shifts                       | Tạo ca làm việc                      |
+| POST   | /business-events/check-attendance  | Kiểm tra và xử lý sự kiện chấm công  |
+| POST   | /business-events/access-validation | Kiểm tra quyền ra/vào của nhân viên  |
+| GET    | /business-events/{id}              | Lấy chi tiết một sự kiện nghiệp vụ   |
+| GET    | /employees/{id}/schedule           | Lấy lịch làm việc của nhân viên      |
+
 
 ## 7. Phụ thuộc service khác
 
