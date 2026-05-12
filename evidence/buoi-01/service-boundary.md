@@ -115,14 +115,26 @@ Core Business Service nhận các dữ liệu đầu vào như:
 
 Service này gọi đến service nào?
 
+Core Business Service có thể gọi đến:
+
+Attendance Service: lấy hoặc gửi kết quả xử lý chấm công.
+Access Gate Service: trả kết quả kiểm tra quyền ra/vào.
+AI Vision Service: nhận kết quả định danh người dùng.
+Analytics Service: gửi dữ liệu nghiệp vụ đã xử lý để phục vụ báo cáo.
+Notification Service nếu có: gửi yêu cầu thông báo khi có sự kiện bất thường.
+Database: lưu trữ dữ liệu nhân viên, phòng ban, ca làm và sự kiện nghiệp vụ.
+
 Service nào gọi đến service này?
 
+Các service có thể gọi đến Core Business Service gồm:
+
+Attendance Service: gọi để kiểm tra dữ liệu chấm công.
+Access Gate Service: gọi để kiểm tra quyền ra/vào.
+AI Vision Service: gọi để xác thực người được nhận diện.
+Analytics Service: gọi để lấy dữ liệu đã xử lý.
+Frontend / Web Admin: gọi để quản lý nhân viên, phòng ban, ca làm.
+Mobile App nếu có: gọi để hiển thị thông tin cá nhân, lịch làm, trạng thái chấm công.
 ## 8. Sơ đồ minh họa
 
-Có thể vẽ bằng Mermaid, draw.io, Ludichart hoặc ảnh chụp sơ đồ.
+<img width="2434" height="818" alt="mermaid-diagram" src="https://github.com/user-attachments/assets/8a22aa40-73c7-492f-8d08-73c7f9e92519" />
 
-```mermaid
-flowchart LR
-    User[Actor] --> Service[Service của nhóm]
-    Service --> DB[(Database)]
-    Service --> Other[Service khác]
