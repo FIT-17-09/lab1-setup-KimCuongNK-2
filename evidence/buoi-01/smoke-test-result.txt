@@ -160,20 +160,20 @@ For more examples and ideas, visit:
 Creating new Ultralytics Settings v0.0.6 file ✅ 
 View Ultralytics Settings with 'yolo settings' or at '/root/.config/Ultralytics/settings.json'
 Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/quickstart/#ultralytics-settings.
-8.4.48
+8.4.49
 [PASS] ultralytics yolo version
 \n== Compose mini-stack check ==
  Network compose_default Creating 
  Network compose_default Created 
- Container compose-redis-1 Creating 
  Container compose-nginx-1 Creating 
+ Container compose-redis-1 Creating 
  Container compose-registry-1 Creating 
- Container compose-nginx-1 Created 
  Container compose-registry-1 Created 
+ Container compose-nginx-1 Created 
  Container compose-redis-1 Created 
  Container compose-redis-1 Starting 
- Container compose-registry-1 Starting 
  Container compose-nginx-1 Starting 
+ Container compose-registry-1 Starting 
  Container compose-redis-1 Started 
  Container compose-nginx-1 Started 
  Container compose-registry-1 Started 

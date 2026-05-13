@@ -1,2 +1,5 @@
-5dcc3b3 add deadline
-e14f0e2 Initial commit
+938e0ab Update checklist.md
+465ba17 Update service-boundary.md
+add50f2 Update service boundary documentation
+d20a579 Update service-boundary.md
+2f6f62b Enhance service boundary documentation for Core Business Service
